@@ -89,10 +89,12 @@ function test7() {
 };
 
 function test8(){
+    let randomColor = Math.floor(arrayOfColors.length * Math.random())
     document
     .getElementById('container')
-    .style.color = arrayOfColors[index];
-    index = (index + 1) %arrayOfColors.length;
+    .style.color = arrayOfColors[randomColor];
+    //.style.color = arrayOfColors[index];
+    //index = (index + 1) %arrayOfColors.length;
 };
 
 document.getElementById('test1').onclick = test1;
