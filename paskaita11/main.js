@@ -19,6 +19,21 @@ if (pow == 25) {
 };
 let box = 250;
 
+let arrayOfColors = [
+    'red',
+    'green',
+    'blue',
+    'black',
+    'white',
+    'orange',
+    'yellow',
+    'pink',
+    'puprle',
+    'brown',
+];
+
+let index = 0;
+
 function test1() {
     incr = incr + 10
     document
@@ -73,6 +88,21 @@ function test7() {
         .style.width = box + 'px';
 };
 
+function test8(){
+    document
+    .getElementById('container')
+    .style.color = arrayOfColors[index];
+    index = (index + 1) %arrayOfColors.length;
+};
+
+document.getElementById('test1').onclick = test1;
+document.getElementById('test2').onclick = test2;
+document.getElementById('test3').onclick = test3;
+document.getElementById('test4').onclick = test4;
+document.getElementById('test5').onclick = test5;
+document.getElementById('test6').onclick = test6;
+document.getElementById('test7').onclick = test7;
+document.getElementById('test8').onclick = test8;
 console.log(objTest);
 console.log(arrnumb);
 console.log(string);
