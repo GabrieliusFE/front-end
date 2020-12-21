@@ -49,19 +49,19 @@ function test2() {
         .style.fontSize = incr + 'px'
 };
 
-function test3() {
+function test4() {
     document
         .getElementById('container')
         .style.backgroundColor = 'blue'
 };
 
-function test4() {
+function test5() {
     document
         .getElementById('container')
         .style.backgroundColor = 'red'
 };
 
-function test5() {
+function test3() {
     incr = 50;
     document
         .getElementById('container')
