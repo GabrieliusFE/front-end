@@ -38,7 +38,10 @@ function test1() {
     incr = incr + 10
     document
         .getElementById('container')
-        .style.fontSize = incr + 'px'
+        .style.fontSize = incr + 'px';
+    document
+        .getElementById('container')
+        .style.transition = 'linear 300ms'
 
 };
 
@@ -46,26 +49,38 @@ function test2() {
     incr = incr - 10
     document
         .getElementById('container')
-        .style.fontSize = incr + 'px'
+        .style.fontSize = incr + 'px';
+    document
+        .getElementById('container')
+        .style.transition = 'linear 300ms'
 };
 
 function test4() {
     document
         .getElementById('container')
-        .style.backgroundColor = 'blue'
+        .style.backgroundColor = 'blue';
+    document
+        .getElementById('container')
+        .style.transition = 'linear 300ms'
 };
 
 function test5() {
     document
         .getElementById('container')
-        .style.backgroundColor = 'red'
+        .style.backgroundColor = 'red';
+    document
+        .getElementById('container')
+        .style.transition = 'linear 300ms'
 };
 
 function test3() {
     incr = 50;
     document
         .getElementById('container')
-        .style.fontSize = incr + 'px'
+        .style.fontSize = incr + 'px';
+    document
+        .getElementById('container')
+        .style.transition = 'linear 300ms'
 };
 
 function test6() {
@@ -75,7 +90,10 @@ function test6() {
         .style.height = box + 'px';
     document
         .getElementById('container')
-        .style.width = box + 'px';
+        .style.width = box + 'px';;
+    document
+        .getElementById('container')
+        .style.transition = 'linear 300ms'
 };
 
 function test7() {
@@ -85,14 +103,20 @@ function test7() {
         .style.height = box + 'px';
     document
         .getElementById('container')
-        .style.width = box + 'px';
+        .style.width = box + 'px';;
+    document
+        .getElementById('container')
+        .style.transition = 'linear 300ms'
 };
 
-function test8(){
+function test8() {
     let randomColor = Math.floor(arrayOfColors.length * Math.random())
     document
-    .getElementById('container')
-    .style.color = arrayOfColors[randomColor];
+        .getElementById('container')
+        .style.color = arrayOfColors[randomColor];
+    document
+        .getElementById('container')
+        .style.transition = 'linear 300ms'
     //.style.color = arrayOfColors[index];
     //index = (index + 1) %arrayOfColors.length;
 };
@@ -104,7 +128,7 @@ document.getElementById('test4').onclick = test4;
 document.getElementById('test5').onclick = test5;
 document.getElementById('test6').onclick = test6;
 document.getElementById('test7').onclick = test7;
-document.getElementById('test8').onclick = test8;
+document.getElementById('test8').onmouseover = test8;
 console.log(objTest);
 console.log(arrnumb);
 console.log(string);
