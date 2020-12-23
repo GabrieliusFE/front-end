@@ -21,3 +21,9 @@ for(let i = 0;i <= x.length;i++){
     }
 }
 
+let stringVar = 'abcdefgh';
+let endResult = '';
+for(let i = 0; i< stringVar.length; i++) {
+    endResult=endResult + stringVar[i] + stringVar[i];
+}
+console.log(endResult)
