@@ -11,12 +11,13 @@
 
 let x = [0,1,2,3,4,5,6,7,8,9,10,11,12]
 
-for(i = 0;i <=x.length;i++){
-    if(i%4 == 0 && i%3 == 0 && i !=0){
+for(let i = 0;i <= x.length;i++){
+    if(i%4 == 0 && i%3 == 0 && i != 0){
         console.log(i + '!')
-    }else if (i%4 == 0 && i != 0){
+    }else if(i%4 == 0 && i != 0){
         console.log(i + '@')
-    }else if(i%3 == 0 && i !=0){
+    }else if(i%3 == 0 && i != 0){
         console.log(i + '*')
     }
 }
+
