@@ -170,25 +170,25 @@ p {
     span {
         .hover-container {
             position: relative;
-            &:hover {
-                /*sitoi vietoj nesigavo
-                & :nth-child(1) {
+            &:hover { 
+                /* nesigauna
+                 :nth-child(1) {
                     transform: translate(0, 10px);
                 }
-                & :nth-child(2) {
+                 :nth-child(2) {
                     transform: translate(0, 30px);
                 }
-                & :nth-child(3) {
+                 :nth-child(3) {
                     transform: translate(0, 50px);
                 }
-                & :nth-child(4) {
+                 :nth-child(4) {
                     transform: translate(0, 70px);
-                }
+                } */
     
                 a {
                     opacity: 1;
                     height: 40px;
-                } */
+                } 
             } 
             a {
                 position: absolute;
